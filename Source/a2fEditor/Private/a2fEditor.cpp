@@ -1,0 +1,20 @@
+// Copyright Spitfire Interactive Pty Ltd. All Rights Reserved.
+
+#include "a2fEditor.h"
+
+#define LOCTEXT_NAMESPACE "Fa2fEditorModule"
+
+void Fa2fEditorModule::StartupModule()
+{
+	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
+}
+
+void Fa2fEditorModule::ShutdownModule()
+{
+	// This function may be called during shutdown to clean up your module.  For modules that support dynamic reloading,
+	// we call this function before unloading the module.
+}
+
+#undef LOCTEXT_NAMESPACE
+	
+IMPLEMENT_MODULE(Fa2fEditorModule, a2f)
